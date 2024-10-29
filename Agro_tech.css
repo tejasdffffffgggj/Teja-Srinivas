@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #060505;
+    background-color: #e4e3dc;
+    background-image: url("Agriculture.jpeg"); /* Replace with your chosen image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+/* Header */
+header {
+    background-color: rgba(8, 169, 75, 0.546);
+    color: #fff;
+    padding: 30px 30px;
+}
+
+header nav h1 {
+    display: inline;
+}
+
+header nav ul {
+    display: inline;
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('Agri.avif'); /* Image of fields or farmers */
+    background-size: cover;
+    background-position: center;
+    color: #070a08;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #2a5d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #224b29;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+}
+
+.section h3 {
+    color: #2a5d32;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2a5d32;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+.Logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.MainTitle{
+    font-size: 50px;
+    font : Aptos;
+    color:rgba(134, 4, 4, 0.76);
+    text-align: center;
+}
+.home, .aboutus,.m_tred, .weather, .e_friend {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search {
+    width: 360px;
+    height: 60px;
+    text-align: center;
+    margin-left: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.scroll {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Instagram {
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 900px;
+}
+.aboutus{
+    display: inline;
+}
+.language{
+    color: white;
+    display: block;
+    width: 50px;
+    height: 80px;
+    margin-left: 600px;
+    margin-bottom: 100px ;
+}
+
+
+
